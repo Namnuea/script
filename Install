@@ -30,9 +30,10 @@ if [[ -e /etc/debian_version ]]; then
 	RCLOCAL='/etc/rc.local'
 
 	if [[ "$VERSION_ID" != 'VERSION_ID="7"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="8"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="9"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="14.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="16.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="17.04"' ]]; then
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    		echo ""              
+    		echo " BY : ✫Pratyasart Theejanmart✫"
+    		echo " Donate : SCB : 403-772-5170"
+    		echo ""
 		echo "เวอร์ชั่น OS ของคุณเป็นเวอร์ชั่นที่ยังไม่รองรับ"
 		echo "สำหรับเวอร์ชั่นที่รองรับได้ จะมีดังนี้..."
 		echo ""
@@ -42,9 +43,10 @@ if [[ -e /etc/debian_version ]]; then
 		exit
 	fi
 else
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "OS ที่คุณใช้ไม่สามารถรองรับได้กับสคริปท์นี้"
 	echo "สำหรับ OS ที่รองรับได้ จะมีดังนี้..."
 	echo ""
@@ -60,11 +62,12 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 # Menu
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "ฟังก์ชั่นสคริปท์ ${GRAY}Namneua-VPN${NC}"
+	echo -e "ฟังก์ชั่นสคริปท์ ${GRAY}NAMNUEA-VPN${NC}"
 	echo ""
 	if [[ -e /etc/openvpn/server.conf ]]; then
 		echo -e "|${GRAY} 1${NC}| ถอนการติดตั้ง OPENVPN ที่ควบคุมการใช้งานผ่านเทอร์มินอล ${GREEN} ✔   ${NC}"
@@ -96,7 +99,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	read -p "เลือกหัวข้อฟังก์ชั่นที่ต้องการใช้งาน : " FUNCTIONSCRIPT
 
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "FUNCTION SCRIPT ${GRAY}Namnuea-VPN${NC}"
+	echo -e "FUNCTION SCRIPT ${GRAY}NAMNUEA-VPN${NC}"
 	echo ""
 	if [[ -e /etc/openvpn/server.conf ]]; then
 		echo -e "|${GRAY} 1${NC}| REMOVE OPENVPN TERMINAL CONTROL ${GREEN} ✔   ${NC}"
@@ -224,9 +227,10 @@ if [[ -e /etc/openvpn/server.conf ]]; then
 
 else
 	clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+   	echo ""
 	read -p "IP Server : " -e -i $IP IP
 	read -p "Port Server : " -e -i 1194 PORT
 	read -p "Port Proxy : " -e -i 8080 PROXY
@@ -253,7 +257,7 @@ else
 	echo -e " |${GRAY}2${NC}| 1 ไฟล์เชื่อมต่อได้หลายเครื่อง แต่ต้องใช้ชื่อบัญชีและรหัสผ่านเพื่อใช้เชื่อมต่อ"
 	echo -e " |${GRAY}3${NC}| 1 ไฟล์เชื่อมต่อได้ไม่จำกัดจำนวนเครื่อง"
 	echo ""
-	read -p "Server System : " -e -i 3 OPENVPNSYSTEM
+	read -p "Server System : " -e -i 2 OPENVPNSYSTEM
 	echo ""
 	read -p "Server Name: " -e CLIENT
 	echo ""
@@ -394,9 +398,10 @@ exit 0' > $RCLOCAL
 
 	EXTERNALIP=$(wget -4qO- "http://whatismyip.akamai.com/")
 	if [[ "$IP" != "$EXTERNALIP" ]]; then
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    		echo ""              
+    		echo " BY : ✫Pratyasart Theejanmart✫"
+    		echo " Donate : SCB : 403-772-5170"
+   		echo ""
 		echo "ตรวจพบเบื้องหลังเซิฟเวอร์ของคุณเป็น Network Addrsss Translation (NAT)"
 		echo "NAT คืออะไร ? : http://www.greatinfonet.co.th/15396685/nat"
 		echo ""
@@ -466,7 +471,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>by Namnuea | Namnuea</pre>" > /home/vps/public_html/index.html
+	echo "<pre>BY : ✫Pratyasart Theejanmart✫" | Donate via SCB : 403-772-5170</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
@@ -600,9 +605,10 @@ fi
 		;;
 	esac
 	clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
 	echo "IP Server : $IP"
 	echo "Port Server : $PORT"
@@ -730,9 +736,10 @@ fi
 
 if [[ "$NoSquid" = 'N' ]]; then
 	clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "Pritunl .....Install Finish."
 	echo "No Proxy"
 	echo ""
@@ -837,9 +844,10 @@ END
 fi
 
 clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+echo ""              
+echo " BY : ✫Pratyasart Theejanmart✫"
+echo " Donate : SCB : 403-772-5170"
+echo ""
 echo "Pritunl, Squid Proxy .....Install Finish."
 echo "IP Proxy : $IP"
 echo "Port Proxy : $PROXY"
@@ -866,10 +874,10 @@ elif [[ ! -e /etc/default/dropbear ]]; then
 	/etc/init.d/dropbear restart
 	PORTSSH=$(grep '^Port ' /etc/ssh/sshd_config | cut -d " " -f 2)
 	clear
-    echo ""
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "SSH Dropbear .....Install Finish."
 	echo "IP Addrsss : $IP"
 	echo "Port SSH : $PORTSSH"
@@ -902,9 +910,10 @@ wget https://raw.githubusercontent.com/ZENON-VPN/ocs-panel/master/VPSnOCScrptZ.s
 if [[ -e /etc/squid3/squid.conf ]]; then
 	apt-get -y remove --purge squid3
 	clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "Squid Proxy .....Removed."
 	exit
 elif [[ -e /etc/squid/squid.conf ]]; then
@@ -958,9 +967,10 @@ END
 		/etc/init.d/squid3 restart
 	fi
 	clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "Squid Proxy .....Install finish."
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
@@ -1002,9 +1012,10 @@ END
 	sed -i $IP2 /etc/squid/squid.conf;
 	/etc/init.d/squid restart
 	clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+	echo ""              
+    	echo " BY : ✫Pratyasart Theejanmart✫"
+    	echo " Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "Squid Proxy .....Install finish."
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
