@@ -16,10 +16,18 @@ NC='\033[0m'
 
 # Menu
 	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo " _   _  _   _  _____    _   "
+    	echo "| \ | || | | ||  ___) / _ \ "
+    	echo "|  \| || | | || |_   | |_| |"
+    	echo "|     || | | ||  _)  |  _  |"
+    	echo "| |\  || |_| || |___ | | | |"
+    	echo "|_| \_| \___/ |_____)|_| |_|"
+    	echo ""
+    	echo "#BY : Pratyasart Theejanmart"
+    	echo "#Donate : SCB : 403-772-5170"
+    	echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "เมนูสคริปท์ ${GRAY}Namnuea-VPN${NC}"
+	echo -e "เมนูสคริปท์ ${GRAY}NAMNUEA-VPN${NC}"
 	echo ""
 	echo -e "|${GRAY} 1${NC}| เพิ่มบัญชีผู้ใช้ OpenVPN"
 	echo -e "|${GRAY} 2${NC}| เพิ่มบัญชีผู้ใช้ SSH (HTTP)"
@@ -35,9 +43,9 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "|${GRAY}12${NC}| ตรวจสอบแบนด์วิดท์ต่อบัญชี"
 	echo -e "|${GRAY}13${NC}| ปรับเปลี่ยนระบบของเซิฟเวอร์"
 	if [[ $CHECKSYSTEM ]]; then
-		echo -e "|${GRAY}14${NC}| แบนและปลดแบนบัญชีผู้ใช้"
+	echo -e "|${GRAY}14${NC}| แบนและปลดแบนบัญชีผู้ใช้"
 	else
-		echo -e "|${GRAY}14${NC}| แบนและปลดแบนบัญชีผู้ใช้ ${GRAY}ใช้งานไม่ได้กับเซิฟเวอร์ระบบปัจจุบัน  ${NC}"
+	echo -e "|${GRAY}14${NC}| แบนและปลดแบนบัญชีผู้ใช้ ${GRAY}ใช้งานไม่ได้กับเซิฟเวอร์ระบบปัจจุบัน  ${NC}"
 	fi
 	echo -e "|${GRAY}15${NC}| ปรับความเร็วอินเตอร์เน็ต"
 	echo -e "|${GRAY}16${NC}| เปิด-ปิด-รีสตาร์ท การทำงานของระบบ"
@@ -47,7 +55,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "|${GRAY}00${NC}| CHANGE TO ENGLISH"
 
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "MENU SCRIPT ${GRAY}Namnuea-VPN${NC}"
+	echo -e "MENU SCRIPT ${GRAY}NAMNUEA-VPN${NC}"
 	echo ""
 	echo -e "|${GRAY} 1${NC}| ADD NEW CLIENT FOR OPENVPN"
 	echo -e "|${GRAY} 2${NC}| ADD NEW CLIENT FOR SSH (HTTP)"
@@ -63,9 +71,9 @@ elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "|${GRAY}12${NC}| CHECK BANDWIDTH PER USER"
 	echo -e "|${GRAY}13${NC}| CHANGE SYSTEM SERVER"
 	if [[ $CHECKSYSTEM ]]; then
-		echo -e "|${GRAY}14${NC}| BAN AND UNBAN CLIENT"
+	echo -e "|${GRAY}14${NC}| BAN AND UNBAN CLIENT"
 	else
-		echo -e "|${GRAY}14${NC}| BAN AND UNBAN CLIENT ${GRAY}Not available with current server.  ${NC}"
+	echo -e "|${GRAY}14${NC}| BAN AND UNBAN CLIENT ${GRAY}Not available with current server.  ${NC}"
 	fi
 	echo -e "|${GRAY}15${NC}| UP-DOWN SPEED INTERNET"
 	echo -e "|${GRAY}16${NC}| START-STOP-RESTART OPERATION SYSTEM"
@@ -132,9 +140,17 @@ if [[ $CHECKSYSTEM ]]; then
 		echo -e "$PASSWORD\n$PASSWORD\n"|passwd $CLIENT &> /dev/null
 
 		clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+		echo ""
+    		echo " _   _  _   _  _____    _   "
+    		echo "| \ | || | | ||  ___) / _ \ "
+    		echo "|  \| || | | || |_   | |_| |"
+    		echo "|     || | | ||  _)  |  _  |"
+    		echo "| |\  || |_| || |___ | | | |"
+    		echo "|_| \_| \___/ |_____)|_| |_|"
+    		echo ""
+    		echo "#BY : Pratyasart Theejanmart"
+    		echo "#Donate : SCB : 403-772-5170"
+    		echo ""
 		echo "ชื่อบัญชี : $CLIENT"
 		echo "รหัสผ่าน : $PASSWORD"
 		echo "หมดอายุในวันที่ : $EXP"
@@ -209,8 +225,16 @@ else
 
 	clear
 	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo " _   _  _   _  _____    _   "
+    	echo "| \ | || | | ||  ___) / _ \ "
+    	echo "|  \| || | | || |_   | |_| |"
+    	echo "|     || | | ||  _)  |  _  |"
+    	echo "| |\  || |_| || |___ | | | |"
+    	echo "|_| \_| \___/ |_____)|_| |_|"
+    	echo ""
+    	echo "#BY : Pratyasart Theejanmart"
+    	echo "#Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "ชื่อบัญชี : $CLIENT"
 	echo "หมดอายุในวันที่ : $EXP"
 	echo ""
@@ -240,9 +264,17 @@ fi
 		echo -e "$PASSWORD\n$PASSWORD\n"|passwd $CLIENT &> /dev/null
 
 		clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+		echo ""
+    		echo " _   _  _   _  _____    _   "
+    		echo "| \ | || | | ||  ___) / _ \ "
+    		echo "|  \| || | | || |_   | |_| |"
+    		echo "|     || | | ||  _)  |  _  |"
+    		echo "| |\  || |_| || |___ | | | |"
+    		echo "|_| \_| \___/ |_____)|_| |_|"
+    		echo ""
+    		echo "#BY : Pratyasart Theejanmart"
+    		echo "#Donate : SCB : 403-772-5170"
+    		echo ""
 		echo "ชื่อบัญชี : $CLIENT"
 		echo "รหัสผ่าน : $PASSWORD"
 		echo "หมดอายุในวันที่ : $EXP"
@@ -311,8 +343,16 @@ fi
 
 clear
 	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo " _   _  _   _  _____    _   "
+    	echo "| \ | || | | ||  ___) / _ \ "
+  	echo "|  \| || | | || |_   | |_| |"
+   	echo "|     || | | ||  _)  |  _  |"
+    	echo "| |\  || |_| || |___ | | | |"
+    	echo "|_| \_| \___/ |_____)|_| |_|"
+    	echo ""
+    	echo "#BY : Pratyasart Theejanmart"
+    	echo "#Donate : SCB : 403-772-5170"
+    	echo ""
 echo ""
 echo "ลำดับ   ชื่อบัญชีผู้ใช้        สถานะ      วันหมดอายุ"
 echo ""
@@ -359,9 +399,17 @@ exit
 		read -p "ยืนยันรหัสผ่านอีกครั้ง : " RETYPEPASSWORD
 
 		if [[ $NEWPASSWORD = $RETYPEPASSWORD ]]; then
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+			echo ""
+    			echo " _   _  _   _  _____    _   "
+    			echo "| \ | || | | ||  ___) / _ \ "
+    			echo "|  \| || | | || |_   | |_| |"
+    			echo "|     || | | ||  _)  |  _  |"
+    			echo "| |\  || |_| || |___ | | | |"
+    			echo "|_| \_| \___/ |_____)|_| |_|"
+    			echo ""
+    			echo "#BY : Pratyasart Theejanmart"
+    			echo "#Donate : SCB : 403-772-5170"
+    			echo """
 			echo "ระบบได้ทำการเปลี่ยนรหัสผ่านเรียบร้อยแล้ว"
 			echo ""
 			echo "ชื่อบัญชีผู้ใข้ : $CLIENTNAME"
@@ -407,8 +455,16 @@ if [ $? -eq 0 ]; then
 	EXP="$(chage -l $CLIENT | grep "Account expires" | awk -F": " '{print $2}')"
 	echo -e "$CLIENT\n$CLIENT\n"|passwd $CLIENT &> /dev/null
 	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo " _   _  _   _  _____    _   "
+    	echo "| \ | || | | ||  ___) / _ \ "
+    	echo "|  \| || | | || |_   | |_| |"
+    	echo "|     || | | ||  _)  |  _  |"
+    	echo "| |\  || |_| || |___ | | | |"
+    	echo "|_| \_| \___/ |_____)|_| |_|"
+    	echo ""
+    	echo "#BY : Pratyasart Theejanmart"
+    	echo "#Donate : SCB : 403-772-5170"
+    	echo ""
 	echo "ชื่อบัญชี : $CLIENT"
 	echo "หมดวันหมดในวันที่ : $EXP"
 	echo ""
@@ -444,9 +500,17 @@ fi
 fi
 
 clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+echo ""
+echo " _   _  _   _  _____    _   "
+echo "| \ | || | | ||  ___) / _ \ "
+echo "|  \| || | | || |_   | |_| |"
+echo "|     || | | ||  _)  |  _  |"
+echo "| |\  || |_| || |___ | | | |"
+echo "|_| \_| \___/ |_____)|_| |_|"
+echo ""
+echo "#BY : Pratyasart Theejanmart"
+echo "#Donate : SCB : 403-772-5170"
+echo ""
 echo -e "${GRAY}ตั้งค่าเวลารีบูทเซิฟเวอร์อัตโนมัติ ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| รีบูททุกๆ  1 ชั่วโมง"
@@ -599,8 +663,16 @@ TXTOTAL=$(vnstat -i $INTERFACE | grep "tx:" | awk '{print $5" "substr ($9, 1, 1)
 
 clear
 	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo " _   _  _   _  _____    _   "
+    	echo "| \ | || | | ||  ___) / _ \ "
+    	echo "|  \| || | | || |_   | |_| |"
+    	echo "|     || | | ||  _)  |  _  |"
+    	echo "| |\  || |_| || |___ | | | |"
+    	echo "|_| \_| \___/ |_____)|_| |_|"
+    	echo ""
+    	echo "#BY : Pratyasart Theejanmart"
+    	echo "#Donate : SCB : 403-772-5170"
+    	echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "แบนด์วิดท์ ${GRAY}ZENON-AUTO-VPN${NC}"
 	echo ""
@@ -827,8 +899,16 @@ if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 	chmod +x /usr/local/bin/Banwidth-Per-Client
 	clear
 	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo " _   _  _   _  _____    _   "
+    	echo "| \ | || | | ||  ___) / _ \ "
+    	echo "|  \| || | | || |_   | |_| |"
+    	echo "|     || | | ||  _)  |  _  |"
+    	echo "| |\  || |_| || |___ | | | |"
+    	echo "|_| \_| \___/ |_____)|_| |_|"
+    	echo ""
+    	echo "#BY : Pratyasart Theejanmart"
+    	echo "#Donate : SCB : 403-772-5170"
+    	echo ""
 	echo -e "Script by ${GRAY}ปรัชญาศาสตร์ ทีจันทร์มาตย์ ${NC}"
 	echo -e "FB Group : ${GRAY}# ${NC}"
 	echo ""
@@ -837,8 +917,16 @@ if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 else
 	clear
 	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+    	echo " _   _  _   _  _____    _   "
+    	echo "| \ | || | | ||  ___) / _ \ "
+    	echo "|  \| || | | || |_   | |_| |"
+    	echo "|     || | | ||  _)  |  _  |"
+    	echo "| |\  || |_| || |___ | | | |"
+    	echo "|_| \_| \___/ |_____)|_| |_|"
+    	echo ""
+    	echo "#BY : Pratyasart Theejanmart"
+    	echo "#Donate : SCB : 403-772-5170"
+    	echo ""
 	Banwidth-Per-Client
 	echo ""
 fi
@@ -848,9 +936,17 @@ fi
 	13) # ==================================================================================================================
 
 clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+echo ""
+echo " _   _  _   _  _____    _   "
+echo "| \ | || | | ||  ___) / _ \ "
+echo "|  \| || | | || |_   | |_| |"
+echo "|     || | | ||  _)  |  _  |"
+echo "| |\  || |_| || |___ | | | |"
+echo "|_| \_| \___/ |_____)|_| |_|"
+echo ""
+echo "#BY : Pratyasart Theejanmart"
+echo "#Donate : SCB : 403-772-5170"
+echo ""
 echo -e "${GRAY}ปรับเปลี่ยนระบบของเซิฟเวอร์ ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| 1 ไฟล์เชื่อมต่อได้ 1 เครื่องเท่านั้น สามารถสร้างไฟล์เพิ่มได้"
@@ -926,9 +1022,17 @@ if [[ ! $CHECKSYSTEM ]]; then
 fi
 
 clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+echo ""
+echo " _   _  _   _  _____    _   "
+echo "| \ | || | | ||  ___) / _ \ "
+echo "|  \| || | | || |_   | |_| |"
+echo "|     || | | ||  _)  |  _  |"
+echo "| |\  || |_| || |___ | | | |"
+echo "|_| \_| \___/ |_____)|_| |_|"
+echo ""
+echo "#BY : Pratyasart Theejanmart"
+echo "#Donate : SCB : 403-772-5170"
+echo ""
 echo -e "${GRAY}แบนและปลดแบนบัญชีผู้ใช้ ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| แบนบัญชีผู้ใช้"
@@ -1008,9 +1112,17 @@ esac
 	15) # ==================================================================================================================
 
 clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+echo ""
+echo " _   _  _   _  _____    _   "
+echo "| \ | || | | ||  ___) / _ \ "
+echo "|  \| || | | || |_   | |_| |"
+echo "|     || | | ||  _)  |  _  |"
+echo "| |\  || |_| || |___ | | | |"
+echo "|_| \_| \___/ |_____)|_| |_|"
+echo ""
+echo "#BY : Pratyasart Theejanmart"
+echo "#Donate : SCB : 403-772-5170"
+echo ""
 echo -e "${GRAY}ปรับความเร็วอินเตอร์เน็ต ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| เปิดใช้งานการปรับแต่งความเร็วอินเทอร์เน็ต"
@@ -1089,9 +1201,17 @@ esac
 	16) # ==================================================================================================================
 
 clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+echo ""
+echo " _   _  _   _  _____    _   "
+echo "| \ | || | | ||  ___) / _ \ "
+echo "|  \| || | | || |_   | |_| |"
+echo "|     || | | ||  _)  |  _  |"
+echo "| |\  || |_| || |___ | | | |"
+echo "|_| \_| \___/ |_____)|_| |_|"
+echo ""
+echo "#BY : Pratyasart Theejanmart"
+echo "#Donate : SCB : 403-772-5170"
+echo ""
 echo -e "เปิด-ปิด-รีสตาร์ท การทำงานของระบบ ${GRAY}ZENON-AUTO-VPN${NC}"
 echo ""
 echo -e "|${GRAY}1${NC}| OPENVPN"
@@ -1314,9 +1434,17 @@ esac
 	17) # ==================================================================================================================
 
 clear
-	echo ""
-	echo "~¤~ ๏[-ิ_•ิ]๏ ~¤~ Admin Namnuea ~¤~ ๏[-ิ_•ิ]๏ ~¤~"
-	echo ""
+echo ""
+echo " _   _  _   _  _____    _   "
+echo "| \ | || | | ||  ___) / _ \ "
+echo "|  \| || | | || |_   | |_| |"
+echo "|     || | | ||  _)  |  _  |"
+echo "| |\  || |_| || |___ | | | |"
+echo "|_| \_| \___/ |_____)|_| |_|"
+echo ""
+echo "#BY : Pratyasart Theejanmart"
+echo "#Donate : SCB : 403-772-5170"
+echo ""
 echo -e "แก้ไขคอนฟิกต่างๆในระบบ ${GRAY}ZENON-AUTO-VPN${NC}"
 echo ""
 echo -e "|${GRAY}1${NC}| OPENVPN ไฟล์ต้นแบบการสร้างคอนฟิก"
