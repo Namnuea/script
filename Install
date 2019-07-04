@@ -471,7 +471,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>BY : ✫Pratyasart Theejanmart✫" | Donate via SCB : 403-772-5170</pre>" > /home/vps/public_html/index.html
+	echo "<pre>BY : ✫Pratyasart Theejanmart✫ | Donate via SCB : 403-772-5170</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
